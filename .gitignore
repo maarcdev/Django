@@ -1,1 +1,37 @@
-venv
+# Byte-compiled / optimized / compiled files
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+venv/
+env/
+
+# Django-specific files
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+media/  # Directory for user-uploaded media files
+static_cdn/ # Directory for collected static files in production (if used)
+
+# IDE-specific files
+.idea/ # PyCharm
+.vscode/ # VS Code (can be ignored if not sharing specific workspace settings)
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+
+# Build artifacts
+dist/
+build/
+
+# Other
+*.bak
+*.swp
